@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="ColorKit.exe" version="1.0.0.0" publicKeyToken="96b9a89215376147" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resources\ColorKitIco.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ColorKit" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ColorKit.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ColorKit.exe" size="498176">
+      <assemblyIdentity name="ColorKit" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>uNHqqxSDatGsM5qyYxst2N6o4hQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="uk-UA\ColorKit.resources.dll" size="6144">
+      <assemblyIdentity name="ColorKit.resources" version="1.0.0.0" language="uk-UA" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>23BXc/GT0TRS0/q8DskwZuOKicM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.QuartzTypeLib.dll" size="18944">
+      <assemblyIdentity name="Interop.QuartzTypeLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>tJj2BLC19HLlbBI/WLm9bNZNPSA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ColorKit.exe.config" size="4632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>oZoi8ijVf7m+JycW/+wYgZOf6X4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\ColorKitIco.ico" size="12766">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DJtE2vZdmHgzw1VIhUGs/E0/Y4c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Macros.ico" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0pgwouHHdbx5vUiNQVNaVJu9RcM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PACKARDBELL\User" issuerKeyHash="d99acee10feaeefb6b23727164e8f44fd72f9d06" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>yosyxFyt/SSoS/xhi8szIMLX0DA=</DigestValue></Reference></SignedInfo><SignatureValue>GFuW9eLjX74RDi7WMEeZSuBfH12MuZi1ZiUxDdm2KvSvLCgXh1YnOFCTu8+vx1z+d+QskfGgoArBZ/89FcqHwZfIwfQxRp9FjGEq0GlKBQ7cev6UJQnS5+Z34pm4BMrLK+pii91p2L10iB03Cm4BKLHYud7OBru+VWxKp9n7/Sc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sLkqebsMdSqxK/TfTe9GqbA2zkTzhrlteaTn+Kan/YWQSx74oAJ7poRgsXS7NjTMeWkve11u6/hja4Zra/Ye9Y5v2244PVXC2GpNN96fTJNzgYOVD8HB4BKwOv2B6CIjoWGYzSWYvwKxCYfaiosBhHLbD+3jzDZnBug2RTjtK28=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="30d0d7c22033cb8b61fc4ba824fdad5cc4328bca" Description="" Url=""><as:assemblyIdentity name="ColorKit.exe" version="1.0.0.0" publicKeyToken="96b9a89215376147" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PACKARDBELL\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>uRBNSTyA6XN6jGOQGPVHdF6xdAU=</DigestValue></Reference></SignedInfo><SignatureValue>N97SKi12BEBIHarTV4tY6iAMaF9xH7OmGG19UBxdS3sBSJBpOZ1K8gIOsoVPZv1j/6jFsvM8u864kwFJX0zfhSJqtGkgNFPdP6IDi2bw/5Id3UJ3fMUjT1SqyenQypFpzsHpA5k8lEbo71P2yr445ng2pDIs613B3CNoFre1cxQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sLkqebsMdSqxK/TfTe9GqbA2zkTzhrlteaTn+Kan/YWQSx74oAJ7poRgsXS7NjTMeWkve11u6/hja4Zra/Ye9Y5v2244PVXC2GpNN96fTJNzgYOVD8HB4BKwOv2B6CIjoWGYzSWYvwKxCYfaiosBhHLbD+3jzDZnBug2RTjtK28=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCAT6gAwIBAgIQTXQiP5htoppFPiwXeQL/NjAJBgUrDgMCHQUAMCsxKTAnBgNVBAMeIABQAEEAQwBLAEEAUgBEAEIARQBMAEwAXABVAHMAZQByMB4XDTEzMTEyMDA5NTkyMloXDTE0MTEyMDE1NTkyMlowKzEpMCcGA1UEAx4gAFAAQQBDAEsAQQBSAEQAQgBFAEwATABcAFUAcwBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALC5Knm7DHUqsSv0303vRqmwNs5E84a5bXmk5/imp/2FkEse+KACe6aEYLF0uzY0zHlpL3tdbuv4Y2uGa2v2HvWOb9tuOD1VwthqTTfen0yTc4GDlQ/BweASsDr9gegiI6FhmM0lmL8CsQmH2oqLAYRy2w/t48w2ZwboNkU47StvAgMBAAEwCQYFKw4DAh0FAAOBgQAQPpDW3Pe0yBltkb5DRDw/nZkKeowvkUNBBRtudHOrlOwYMfwZUUkG3gJKpk66aCvfyvcQxyUaUb4LeBwki8lRnrn++lk7kG/+2Gj7QHVoSj0uGKmb3NbSG61lPkdhTIFhNwifRnG1NurWlVDBV4k/uzT3S6gqzkck49IBvnKu3A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
